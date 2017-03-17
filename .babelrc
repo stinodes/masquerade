@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "transform-class-properties"
+  ],
+  "presets": [
+    ["es2015", { "modules": false }],
+    "stage-0"
+  ],
+  "env": {
+    "development": {
+    },
+    "test": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ]
+    }
+  }
+}
